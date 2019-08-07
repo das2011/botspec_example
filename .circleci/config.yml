@@ -44,7 +44,7 @@ jobs:
           name: run tests
           command: |
             mkdir /tmp/test-results
-            bundle exec rspec --format html --out /tmp/test-results/rspec.html specs/*
+            bundle exec rspec specs/*
 
       # collect reports
 #      - store_test_results:
